@@ -57,6 +57,7 @@
 		DC1846F414FF04C400A4C22C /* ShoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1846CB14FF04C400A4C22C /* ShoutViewController.xib */; };
 		DC1846F614FF056F00A4C22C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1846F514FF056F00A4C22C /* MainWindow.xib */; };
 		DC1846F914FF05A600A4C22C /* BNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1846F814FF05A600A4C22C /* BNLAppDelegate.m */; };
+		DCDD801414FFC76C001295E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDD801314FFC76C001295E6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +134,7 @@
 		DC1846F514FF056F00A4C22C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DC1846F714FF05A600A4C22C /* BNLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLAppDelegate.h; sourceTree = "<group>"; };
 		DC1846F814FF05A600A4C22C /* BNLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLAppDelegate.m; sourceTree = "<group>"; };
+		DCDD801314FFC76C001295E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDD801414FFC76C001295E6 /* MapKit.framework in Frameworks */,
 				DC18467614FF049500A4C22C /* UIKit.framework in Frameworks */,
 				DC18467814FF049500A4C22C /* Foundation.framework in Frameworks */,
 				DC18467A14FF049500A4C22C /* CoreGraphics.framework in Frameworks */,
@@ -230,6 +233,7 @@
 		DC18467414FF049500A4C22C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCDD801314FFC76C001295E6 /* MapKit.framework */,
 				DC18467514FF049500A4C22C /* UIKit.framework */,
 				DC18467714FF049500A4C22C /* Foundation.framework */,
 				DC18467914FF049500A4C22C /* CoreGraphics.framework */,
@@ -470,6 +474,7 @@
 				DC18469014FF049500A4C22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
