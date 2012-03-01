@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC18467614FF049500A4C22C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC18467514FF049500A4C22C /* UIKit.framework */; };
+		DC18467814FF049500A4C22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC18467714FF049500A4C22C /* Foundation.framework */; };
+		DC18467A14FF049500A4C22C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC18467914FF049500A4C22C /* CoreGraphics.framework */; };
+		DC18467C14FF049500A4C22C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC18467B14FF049500A4C22C /* CoreData.framework */; };
+		DC18468214FF049500A4C22C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC18468014FF049500A4C22C /* InfoPlist.strings */; };
+		DC18468414FF049500A4C22C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC18468314FF049500A4C22C /* main.m */; };
+		DC18468814FF049500A4C22C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC18468714FF049500A4C22C /* AppDelegate.m */; };
+		DC18468B14FF049500A4C22C /* BrisNightLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC18468914FF049500A4C22C /* BrisNightLife.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC18467114FF049500A4C22C /* BrisNightLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrisNightLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC18467514FF049500A4C22C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC18467714FF049500A4C22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC18467914FF049500A4C22C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC18467B14FF049500A4C22C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC18467F14FF049500A4C22C /* BrisNightLife-Info.plist */ = {isa = PBXFileReference; path = "BrisNightLife-Info.plist"; sourceTree = "<group>"; };
+		DC18468114FF049500A4C22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC18468314FF049500A4C22C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC18468514FF049500A4C22C /* BrisNightLife-Prefix.pch */ = {isa = PBXFileReference; path = "BrisNightLife-Prefix.pch"; sourceTree = "<group>"; };
+		DC18468614FF049500A4C22C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC18468714FF049500A4C22C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC18468A14FF049500A4C22C /* BrisNightLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrisNightLife.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC18466E14FF049500A4C22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18467614FF049500A4C22C /* UIKit.framework in Frameworks */,
+				DC18467814FF049500A4C22C /* Foundation.framework in Frameworks */,
+				DC18467A14FF049500A4C22C /* CoreGraphics.framework in Frameworks */,
+				DC18467C14FF049500A4C22C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC18466614FF049500A4C22C = {
+			isa = PBXGroup;
+			children = (
+				DC18467D14FF049500A4C22C /* BrisNightLife */,
+				DC18467414FF049500A4C22C /* Frameworks */,
+				DC18467214FF049500A4C22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC18467214FF049500A4C22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC18467114FF049500A4C22C /* BrisNightLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC18467414FF049500A4C22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC18467514FF049500A4C22C /* UIKit.framework */,
+				DC18467714FF049500A4C22C /* Foundation.framework */,
+				DC18467914FF049500A4C22C /* CoreGraphics.framework */,
+				DC18467B14FF049500A4C22C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC18467D14FF049500A4C22C /* BrisNightLife */ = {
+			isa = PBXGroup;
+			children = (
+				DC18468614FF049500A4C22C /* AppDelegate.h */,
+				DC18468714FF049500A4C22C /* AppDelegate.m */,
+				DC18468914FF049500A4C22C /* BrisNightLife.xcdatamodeld */,
+				DC18467E14FF049500A4C22C /* Supporting Files */,
+			);
+			path = BrisNightLife;
+			sourceTree = "<group>";
+		};
+		DC18467E14FF049500A4C22C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC18467F14FF049500A4C22C /* BrisNightLife-Info.plist */,
+				DC18468014FF049500A4C22C /* InfoPlist.strings */,
+				DC18468314FF049500A4C22C /* main.m */,
+				DC18468514FF049500A4C22C /* BrisNightLife-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC18467014FF049500A4C22C /* BrisNightLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC18468E14FF049500A4C22C /* Build configuration list for PBXNativeTarget "BrisNightLife" */;
+			buildPhases = (
+				DC18466D14FF049500A4C22C /* Sources */,
+				DC18466E14FF049500A4C22C /* Frameworks */,
+				DC18466F14FF049500A4C22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrisNightLife;
+			productName = BrisNightLife;
+			productReference = DC18467114FF049500A4C22C /* BrisNightLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC18466814FF049500A4C22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC18466B14FF049500A4C22C /* Build configuration list for PBXProject "BrisNightLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC18466614FF049500A4C22C;
+			productRefGroup = DC18467214FF049500A4C22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC18467014FF049500A4C22C /* BrisNightLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC18466F14FF049500A4C22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18468214FF049500A4C22C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC18466D14FF049500A4C22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18468414FF049500A4C22C /* main.m in Sources */,
+				DC18468814FF049500A4C22C /* AppDelegate.m in Sources */,
+				DC18468B14FF049500A4C22C /* BrisNightLife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC18468014FF049500A4C22C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC18468114FF049500A4C22C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC18468C14FF049500A4C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC18468D14FF049500A4C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC18468F14FF049500A4C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrisNightLife/BrisNightLife-Prefix.pch";
+				INFOPLIST_FILE = "BrisNightLife/BrisNightLife-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC18469014FF049500A4C22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrisNightLife/BrisNightLife-Prefix.pch";
+				INFOPLIST_FILE = "BrisNightLife/BrisNightLife-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC18466B14FF049500A4C22C /* Build configuration list for PBXProject "BrisNightLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC18468C14FF049500A4C22C /* Debug */,
+				DC18468D14FF049500A4C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC18468E14FF049500A4C22C /* Build configuration list for PBXNativeTarget "BrisNightLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC18468F14FF049500A4C22C /* Debug */,
+				DC18469014FF049500A4C22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC18468914FF049500A4C22C /* BrisNightLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC18468A14FF049500A4C22C /* BrisNightLife.xcdatamodel */,
+			);
+			currentVersion = DC18468A14FF049500A4C22C /* BrisNightLife.xcdatamodel */;
+			path = BrisNightLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC18466814FF049500A4C22C /* Project object */;
+}
